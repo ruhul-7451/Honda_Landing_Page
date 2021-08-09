@@ -1,0 +1,66 @@
+
+/* font-poppins */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Poppins:wght@300;400;500;600&display=swap');
+/* font-inter */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+h2{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+h5{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+h1+p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+
+p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+small{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+.txt-author{
+    color:#23A6F0;
+}
+.txt-secondary{
+    color:#E76F51;
+}
+
+.bg-banner{
+    background-color:#264653 ;
+}
+
+.btn-clr-primary{
+    background-color:#E76F51;
+    color: white;
+    font-weight: 500;
+}
+.btn-outline-warning{
+    color: #E76F51;
+    border-color: #E76F51;
+    font-weight: 500;
+}
+.btn-danger, .btn-warning{
+    font-weight: 500;
+}
+.gray-scale {
+    filter: grayscale(100%);
+  }
+
+.fa-star{
+    color: #E76F51
+}
+
+.fill{
+      color: #E76F51;
+  }
